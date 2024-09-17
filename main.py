@@ -10,7 +10,8 @@ def main():
         outputs=gr.Textbox(label='Host'),
         theme=gr.themes.Monochrome(
             font=[gr.themes.GoogleFont('Inconsolata'), 'Arial', 'sans-serif']
-        )
+        ),
+        allow_flagging='never',
     )
     app.launch()
 
