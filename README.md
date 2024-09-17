@@ -25,13 +25,15 @@ env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Run the `main.py` file to get your question.
+Run the FastAPI endpoint using `uvicorn`.
 
 ```bash
-python main.py
+uvicorn app:app --reload
 ```
 
-> Feel free to tweak the prompt in `instructions.txt` file to personalize your responses.
+Append the running URL with `/gradio` to run the application. For instance for me the app runs locally at `https://127.0.0.1:8000/gradio`
+
+> Feel free to tweak the prompt in [`instructions.txt`](./instructions.txt) file to personalize your responses.
 
 ## Acknowledgements
 
