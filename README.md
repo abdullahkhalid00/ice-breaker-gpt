@@ -2,6 +2,8 @@
 
 An application that generates a random interesting question to be used as an "ice breaker" in a conversation.
 
+![interface.png](./images/interface.png)
+
 ## Usage (Run locally)
 
 Go to the [Groq Cloud](https://console.groq.com/) to get your free API key and export it as an environment variable.
