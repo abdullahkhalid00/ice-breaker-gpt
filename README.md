@@ -35,6 +35,10 @@ Append the running URL with `/gradio` to run the application. For instance for m
 
 > Feel free to tweak the prompt in [`instructions.txt`](./instructions.txt) file to personalize your responses.
 
+## Deployment on Hugging Face 🤗
+
+The application is deployed on Hugging Face as a [space](https://huggingface.co/spaces/iabdulahk/ice-breaker-gpt) with a Gradio frontend.
+
 ## Acknowledgements
 
 I drew inspiration for this project and got the example questions (included in the prompt) from [OmegleMe](https://omegleapp.me/). Furthermore, I used [this](https://lib.scu.edu.cn/genai/static/wenjian/The%20Art%20of%20Asking%20ChatGPT%20for%20High-Quality%20Answers--Ibrahim_John.pdf) book to craft my system prompt for better responses.
